@@ -24,7 +24,7 @@ export function Header({ transparent = false }: { transparent?: boolean }) {
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${solid ? "bg-glass shadow-soft backdrop-blur-md text-foreground" : "text-on-image"}`}>
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 md:px-8">
         <Link to="/" className="flex items-center gap-2 font-display text-2xl uppercase tracking-wide">
-          <Mountain className="h-6 w-6" /> Wander
+          <Mountain className="h-6 w-6" /> Sua Agência
         </Link>
         <nav className="hidden items-center gap-8 lg:flex">
           {nav.map((n) => (
@@ -57,8 +57,8 @@ export function Footer() {
     <footer className="bg-primary text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-12 px-5 py-16 md:grid-cols-4 md:px-8">
         <div className="md:col-span-1">
-          <div className="flex items-center gap-2 font-display text-2xl uppercase"><Mountain className="h-6 w-6" /> Wander</div>
-          <p className="mt-4 text-sm opacity-70">Expedições fotográficas para quem viaja com o olhar. Desde 2016.</p>
+          <div className="flex items-center gap-2 font-display text-2xl uppercase"><Mountain className="h-6 w-6" /> Sua Agência</div>
+          <p className="mt-4 text-sm opacity-70">Expedições fotográficas para quem viaja com o olhar.</p>
           <div className="mt-6 flex gap-3">
             {[Instagram, Facebook, Youtube].map((I, i) => (
               <a key={i} href="#" aria-label="Rede social" className="grid h-10 w-10 place-items-center rounded-full border border-primary-foreground/20 transition hover:bg-primary-foreground hover:text-primary"><I className="h-4 w-4" /></a>
@@ -74,7 +74,7 @@ export function Footer() {
         <div>
           <h4 className="font-semibold">Contato</h4>
           <ul className="mt-4 space-y-2 text-sm opacity-70">
-            <li>contato@wander.com.br</li><li>+55 (85) 99999-0000</li><li>Fortaleza, CE</li>
+            <li>contato@seudominio.com.br</li><li>+55 (00) 00000-0000</li><li>Sua cidade, UF</li>
           </ul>
         </div>
         <div>
@@ -86,7 +86,10 @@ export function Footer() {
           </form>
         </div>
       </div>
-      <div className="border-t border-primary-foreground/10 py-6 text-center text-xs opacity-60">© 2026 Wander Expedições. Todos os direitos reservados.</div>
+      <div className="border-t border-primary-foreground/10 px-5 py-6 text-center text-xs opacity-70">
+        <p>Este é um site modelo para agências de fotografia e viagens. Textos, preços, números e depoimentos são ilustrativos.</p>
+        <p className="mt-2">© 2026 Sua Agência. Todos os direitos reservados. · Desenvolvido por <a href="https://tientrega.com.br" target="_blank" rel="noreferrer" className="underline underline-offset-4 hover:opacity-100">tientrega.com.br</a></p>
+      </div>
     </footer>
   );
 }
@@ -97,6 +100,7 @@ export function PageHero({ title, subtitle, img }: { title: string; subtitle: st
       <img src={img} alt="" className="absolute inset-0 h-full w-full object-cover" />
       <div className="absolute inset-0 bg-overlay" />
       <div className="relative mx-auto w-full max-w-7xl px-5 pb-16 md:px-8">
+        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em]">Modelo demonstrativo · Agência de fotografia e viagens</p>
         <h1 className="text-5xl md:text-7xl">{title}</h1>
         <p className="mt-4 max-w-xl text-lg opacity-90">{subtitle}</p>
       </div>

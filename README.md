@@ -1,24 +1,24 @@
-# Pixel Perfect Replica
+# Modelo de site para agência de fotografia e viagens
 
-Implement exactly the screenshot and nothing else
+Site demonstrativo em português para apresentar uma estrutura de agência de
+viagens e expedições fotográficas. O conteúdo, os preços, os números e os
+depoimentos são ilustrativos e devem ser substituídos pelas informações reais
+da agência antes da publicação.
 
-This project was built with [Lovable](https://lovable.dev).
+Desenvolvido por [tientrega.com.br](https://tientrega.com.br).
 
-## Build with Lovable
+## Desenvolvimento local
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/7c06d9bb-506a-46a1-8a03-008278b1a271).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Requer Node.js e npm.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+npm install
 npm run dev
 ```
+
+## Scripts
+
+- `npm run dev`: inicia o servidor de desenvolvimento.
+- `npm run build`: gera a versão de produção.
+- `npm run lint`: verifica o código com ESLint.
+- `npm test`: executa os testes.

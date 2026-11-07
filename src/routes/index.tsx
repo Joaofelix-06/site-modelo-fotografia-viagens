@@ -3,7 +3,7 @@ import { Shell } from "@/components/site/Layout";
 import { Hero, WhyUs, Destinations, Packages, Gallery, Steps, Testimonials, CTA } from "@/components/site/Sections";
 
 export const Route = createFileRoute("/")({
-  head: () => ({ meta: [{ title: "Wander — Viagens e Expedições Fotográficas" }, { name: "description", content: "Roteiros de aventura guiados por fotógrafos profissionais em destinos extraordinários." }, { property: "og:title", content: "Wander — Viagens e Expedições Fotográficas" }, { property: "og:description", content: "Roteiros de aventura guiados por fotógrafos profissionais em destinos extraordinários." }] }),
+  head: () => ({ meta: [{ title: "Modelo de Site — Agência de Fotografia e Viagens" }, { name: "description", content: "Modelo demonstrativo de site para agências de fotografia e viagens, desenvolvido por tientrega.com.br." }, { property: "og:title", content: "Modelo de Site — Agência de Fotografia e Viagens" }, { property: "og:description", content: "Modelo demonstrativo de site para agências de fotografia e viagens, desenvolvido por tientrega.com.br." }] }),
   component: () => (
     <Shell transparent>
       <Hero /><WhyUs /><Destinations /><Packages /><Gallery /><Steps /><Testimonials /><CTA />

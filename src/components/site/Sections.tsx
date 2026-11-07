@@ -22,9 +22,9 @@ export function Hero() {
     <section className="relative min-h-[100svh] overflow-hidden text-on-image">
       <img src={images.hero} alt="Fotógrafo em cume de montanha ao pôr do sol" width={1920} height={1088} className="absolute inset-0 h-full w-full scale-105 object-cover" />
       <div className="absolute inset-0 bg-overlay" />
-      <span aria-hidden className="pointer-events-none absolute inset-x-0 top-[18%] select-none text-center font-display text-[24vw] leading-none opacity-15">WANDER</span>
+      <span aria-hidden className="pointer-events-none absolute inset-x-0 top-[18%] select-none text-center font-display text-[24vw] leading-none opacity-15">MODELO</span>
       <div className="relative mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-center px-5 pt-28 pb-40 md:px-8">
-        <span className="inline-flex w-fit items-center gap-2 rounded-full border border-on-image/30 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] backdrop-blur"><Camera className="h-3.5 w-3.5" /> Expedições fotográficas</span>
+        <span className="inline-flex w-fit items-center gap-2 rounded-full border border-on-image/30 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] backdrop-blur"><Camera className="h-3.5 w-3.5" /> Site modelo · Fotografia e viagens</span>
         <h1 className="mt-6 max-w-4xl text-6xl leading-[0.95] md:text-8xl">Sua próxima jornada começa aqui</h1>
         <p className="mt-6 max-w-xl text-lg opacity-90">Roteiros de aventura guiados por fotógrafos profissionais. Viaje para lugares extraordinários e volte com imagens que contam sua história.</p>
       </div>

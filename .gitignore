@@ -12,9 +12,15 @@ dist
 dist-ssr
 .output
 .vinxi
-.tanstack/**
+.tanstack/
 .nitro
 *.local
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.*.example
 
 # Wrangler / Cloudflare
 .wrangler/

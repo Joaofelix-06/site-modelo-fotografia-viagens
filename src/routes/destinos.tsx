@@ -4,7 +4,7 @@ import { DestinationCard, CTA } from "@/components/site/Sections";
 import { destinations, images } from "@/components/site/data";
 
 export const Route = createFileRoute("/destinos")({
-  head: () => ({ meta: [{ title: "Destinos | Wander Expedições" }, { name: "description", content: "Conheça os destinos das nossas expedições fotográficas pelo Brasil e pelo mundo." }, { property: "og:title", content: "Destinos | Wander Expedições" }, { property: "og:description", content: "Conheça os destinos das nossas expedições fotográficas pelo Brasil e pelo mundo." }] }),
+  head: () => ({ meta: [{ title: "Destinos | Modelo de Agência" }, { name: "description", content: "Exemplos de destinos para o modelo de site de uma agência de fotografia e viagens." }, { property: "og:title", content: "Destinos | Modelo de Agência" }, { property: "og:description", content: "Exemplos de destinos para o modelo de site de uma agência de fotografia e viagens." }] }),
   component: () => (
     <Shell transparent>
       <PageHero title="Destinos" subtitle="Paisagens escolhidas a dedo pela luz, pela história e pela aventura." img={images.suica} />
